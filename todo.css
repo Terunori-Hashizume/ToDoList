@@ -1,0 +1,107 @@
+body {
+  background-color: #f0f0f0;
+  font-size: 15px;
+  color: #333;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+header {
+  margin: 10px auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  background-color: yellow;
+  opacity: 0.5;
+  width: 840px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.container form {
+  margin: 0 10px 0;
+  padding-top: 5px;
+  text-align: right;
+}
+
+
+.DoNow {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  margin: 10px;
+  float: left;
+}
+
+.sticker {
+  background-color: #e0e0e0;
+  height: 100px;
+  width: 300px;
+  margin: 250px auto;
+  padding: 0;
+}
+
+.sentencebox {
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.sentencebox p {
+  font-size: 30px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.sticker form {
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.sticker input {
+  background-color: white;
+  font-size: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.ToDoList {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+  margin: 10px;
+  float: left;
+}
+
+.ToDoList form {
+  text-align: right;
+}
+
+.ToDoList ol {
+  width: 200px;
+  margin: 10px auto;
+}
+
+.ToDoList ol li {
+  text-align: center;
+  line-height: 30px;
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: "";
+}
